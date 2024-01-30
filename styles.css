@@ -1,0 +1,59 @@
+html {
+background-color: grey;
+color: white;
+
+}
+
+header {
+display: flex;
+justify-content:center;
+background-color: black;
+color: lightblue;
+height: 80px;
+border:1px;
+}
+
+h1{
+  font-size:50px;
+  margin-top:10px;
+}
+
+.credit {
+  margin-top:39px;
+  margin-left:5px;
+}
+
+body {
+  margin:0;
+  color: black;
+  background-color: lightblue;
+}
+
+h2 {
+  display:flex;
+  justify-content: center;
+  font
+}
+
+.box {
+  display:flex;
+  flex-direction:column;
+  justify-content: center;
+  max-width:400px;
+  margin:auto;
+  padding: 10px;
+  border: solid white 5px;
+  border-radius: 25px;
+  background-image: linear-gradient(to bottom right, white, lightblue);
+  box-shadow:10px 10px 10px grey ;
+  color: black;
+  font-weight:bold;
+  font-size:18px;
+  text-align: center;
+}
+
+input, button {
+ border: white 1px solid;
+ border-radius: 25px;
+ margin:2px;
+}
